@@ -1,0 +1,10 @@
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\bin\Debug\CafeMenu.exe.config
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\bin\Debug\CafeMenu.exe
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\bin\Debug\CafeMenu.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\bin\Debug\CafeMenuRepository.dll
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\bin\Debug\CafeMenuRepository.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\obj\Debug\CafeMenu.csproj.AssemblyReference.cache
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\obj\Debug\CafeMenu.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\obj\Debug\CafeMenu.csproj.CopyComplete
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\obj\Debug\CafeMenu.exe
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenu\obj\Debug\CafeMenu.pdb

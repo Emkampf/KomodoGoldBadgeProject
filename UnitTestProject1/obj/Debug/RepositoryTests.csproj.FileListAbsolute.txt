@@ -1,0 +1,2 @@
+C:\ElevenFiftyClassWork\KomodoMenu\UnitTestProject1\obj\Debug\RepositoryTests.csproj.AssemblyReference.cache
+C:\ElevenFiftyClassWork\KomodoMenu\UnitTestProject1\obj\Debug\RepositoryTests.csproj.CoreCompileInputs.cache

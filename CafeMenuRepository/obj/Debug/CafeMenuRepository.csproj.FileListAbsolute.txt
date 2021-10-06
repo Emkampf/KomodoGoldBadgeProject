@@ -1,0 +1,5 @@
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenuRepository\bin\Debug\CafeMenuRepository.dll
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenuRepository\bin\Debug\CafeMenuRepository.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenuRepository\obj\Debug\CafeMenuRepository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenuRepository\obj\Debug\CafeMenuRepository.dll
+C:\ElevenFiftyClassWork\KomodoMenu\CafeMenuRepository\obj\Debug\CafeMenuRepository.pdb

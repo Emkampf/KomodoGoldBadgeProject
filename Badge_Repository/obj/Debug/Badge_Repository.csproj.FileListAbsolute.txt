@@ -1,0 +1,5 @@
+C:\ElevenFiftyClassWork\KomodoMenu\Badge_Repository\bin\Debug\Badge_Repository.dll
+C:\ElevenFiftyClassWork\KomodoMenu\Badge_Repository\bin\Debug\Badge_Repository.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\Badge_Repository\obj\Debug\Badge_Repository.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyClassWork\KomodoMenu\Badge_Repository\obj\Debug\Badge_Repository.dll
+C:\ElevenFiftyClassWork\KomodoMenu\Badge_Repository\obj\Debug\Badge_Repository.pdb

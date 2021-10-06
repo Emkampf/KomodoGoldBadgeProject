@@ -1,0 +1,11 @@
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\bin\Debug\ClaimsDepartment.exe
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\bin\Debug\Claims_Department_Repository.dll
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\bin\Debug\ClaimsDepartment.exe.config
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\bin\Debug\ClaimsDepartment.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\bin\Debug\Claims_Department_Repository.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\bin\Debug\Claims_Department_Repository.dll.config
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\obj\Debug\ClaimsDepartment.csproj.AssemblyReference.cache
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\obj\Debug\ClaimsDepartment.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\obj\Debug\ClaimsDepartment.csproj.CopyComplete
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\obj\Debug\ClaimsDepartment.exe
+C:\ElevenFiftyClassWork\KomodoMenu\ClaimsDepartment\obj\Debug\ClaimsDepartment.pdb
