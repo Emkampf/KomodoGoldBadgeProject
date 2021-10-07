@@ -56,7 +56,6 @@ namespace BadgeConsole
         {
             Console.Clear();
             BadgeContent badgeContent = new BadgeContent();
-            BadgeRepo badgeNumber = new BadgeRepo();
 
             Console.Clear();
             Console.WriteLine("What is the number on the badge:");
@@ -88,9 +87,9 @@ namespace BadgeConsole
                 else
                     isRunning = false;
             }
-            _badgeContent.Add(badgeId, doorAccess);
-            BadgeContent content = new BadgeContent(badgeNumber, doorAccess);
-            badgeContent.Add(badgeContent);
+            _badgeContent.Add(badgeContent.BadgeId, doorAccess);
+            BadgeContent content = new BadgeContent(badgeContent.BadgeId, doorAccess);
+            _badgeRepo.AddContent(badgeContent);
 
             Console.WriteLine("Return to main menu");
                 Console.ReadKey();
@@ -98,7 +97,11 @@ namespace BadgeConsole
         }
         private void EditBadge()
         {
+
             Console.WriteLine("What is the badge number to update?");
+            string badgeId= Console.ReadLine();
+            BadgeContent badgeStuff = _badgeRepo.GetContentById(badgeId);
+
 
             //must return badge id and access numbers
             bool isRunning = true;
@@ -114,13 +117,13 @@ namespace BadgeConsole
                     case "1":
                         Console.WriteLine("Which door would you like to remove?");
                         string dev1 = Console.ReadLine();
-                        _badgeContent.Remove(dev1);
+                        badgeStuff.DoorNames.Remove(dev1);
                         Console.WriteLine("Door removed.");
                         break;
                     case "2":
                         Console.WriteLine("Add a door:");
                         string user2 = Console.ReadLine();
-                        _badgeContent.Add(user2);
+                        badgeStuff.DoorNames.Add(user2);
                         Console.WriteLine("Door added.");
                         break;
                     default:

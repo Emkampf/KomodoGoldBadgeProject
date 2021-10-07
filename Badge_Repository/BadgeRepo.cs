@@ -9,12 +9,12 @@ namespace Badge_Repository
     public class BadgeRepo
     {
         public Dictionary<string, List<string>> _badgeContent = new Dictionary<string, List<string>>();
-        private List<BadgeContent> badgeContents = new List<BadgeContent>();
+
         //Create
-        public bool AddContent(BadgeContent badgeId)
+        public bool AddContent(BadgeContent badge)
         {
-            int startingCount = badgeContents.Count;
-            badgeContents.Add(badgeId);
+            int startingCount = _badgeContent.Count;
+            _badgeContent.Add(badge.BadgeId, badge.DoorNames);
 
             bool wasAdded = (_badgeContent.Count > startingCount) ? true : false;
             return wasAdded;

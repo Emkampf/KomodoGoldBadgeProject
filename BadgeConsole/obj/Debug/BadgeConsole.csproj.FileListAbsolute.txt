@@ -1,2 +1,10 @@
 C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\obj\Debug\BadgeConsole.csproj.AssemblyReference.cache
 C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\obj\Debug\BadgeConsole.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\bin\Debug\BadgeConsole.exe.config
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\bin\Debug\BadgeConsole.exe
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\bin\Debug\BadgeConsole.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\bin\Debug\Badge_Repository.dll
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\bin\Debug\Badge_Repository.pdb
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\obj\Debug\BadgeConsole.csproj.CopyComplete
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\obj\Debug\BadgeConsole.exe
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\obj\Debug\BadgeConsole.pdb
