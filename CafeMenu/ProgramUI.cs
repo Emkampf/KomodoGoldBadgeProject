@@ -15,30 +15,24 @@ namespace CafeMenu
             SeedData();
             CafeMenu();
         }
-
         public void CafeMenu()
         {
             bool keepRunning = true;
             while (keepRunning)
             {
-
                 Console.Clear();
                 Console.WriteLine("\t\t\t\t\t\tKomodo Cafe\n\n" +
 
-  
                     "\t\t\t1. Welcome to Cafe Komodo! Press 1 to make make and view changes.\n" +
                     "\t\t\t2. Exit \n");
 
                 string input = Console.ReadLine();
                 switch (input)
                 {
-
                     case "1":
                         Welcome();
                         //Options
                         break;
-
-
                     case "2":
                         //Exit
                         Console.WriteLine("Goodbye!");
@@ -48,12 +42,9 @@ namespace CafeMenu
                     default:
                         Console.WriteLine("Please enter a valid entry.");
                         break;
-
                 }
-
             }
         }
-
         private void Welcome()
         {
             bool isRunning = true;
@@ -91,13 +82,11 @@ namespace CafeMenu
                         Console.WriteLine("Please enter valid entry.");
                         Console.ReadKey();
                         break;
-
                 }
                 Console.WriteLine("Press any key to continue");
                 Console.ReadKey();
                 Console.Clear();
             }
-
         }
         private void AddCafeContent()
         {
@@ -108,7 +97,6 @@ namespace CafeMenu
             Console.WriteLine("Add order number");
             string orderNumberAsString = Console.ReadLine();
             cafeContent.OrderNumber = int.Parse(orderNumberAsString);
-
 
             //Price
             Console.WriteLine("Enter Price for new Menu Item");
@@ -129,7 +117,6 @@ namespace CafeMenu
 
             _cafeMenuRepo.CreateNewMenuContent(cafeContent);
         }
-
         private void ReadCafeContent()
         {
             Console.Clear();
@@ -139,9 +126,7 @@ namespace CafeMenu
             {
                 Console.WriteLine($"${cafeContent.Price}\t {cafeContent.OrderNumber}. {cafeContent.Menu}:{cafeContent.Description}.. \n \t\t{cafeContent.Ingredients} \n\n");
             }
-
         }
-
         public void DeleteCafeContent()
         {
             Console.Clear();
@@ -184,11 +169,7 @@ namespace CafeMenu
             _cafeMenuRepo.CreateNewMenuContent(stuffedpepps);
             _cafeMenuRepo.CreateNewMenuContent(chickenshrimp);
             _cafeMenuRepo.CreateNewMenuContent(fruitsalad);
-
-
         }
     }
 }
-
-    
 

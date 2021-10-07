@@ -6,8 +6,6 @@ using System.Threading.Tasks;
 
 namespace Claims_Department_Repository
 {
-
-
     public class ClaimsContent
     {
         public int ClaimId { get; set; }
@@ -19,7 +17,6 @@ namespace Claims_Department_Repository
         public bool IsValid { get; set; }
 
         public ClaimsContent() { }
-
         public ClaimsContent(int claimId, ClaimType typeOfClaim, string description, decimal claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
         {
             ClaimId = claimId;
@@ -29,18 +26,12 @@ namespace Claims_Department_Repository
             DateOfIncident = dateOfIncident;
             DateOfClaim = dateOfClaim;
             IsValid = isValid;
-
         }
-        
-
-
-
         public enum ClaimType
         {
             Car = 1,
             Home,
             Theft
-
         }
     }
 }

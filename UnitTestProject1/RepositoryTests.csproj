@@ -58,6 +58,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Badge_Repository\Badge_Repository.csproj">
+      <Project>{B845042B-C2F3-4A0E-9E39-E2D3B1F25DE8}</Project>
+      <Name>Badge_Repository</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CafeMenuRepository\CafeMenuRepository.csproj">
       <Project>{b1ed2e53-d9c4-46c8-bfe8-a79901518a91}</Project>
       <Name>CafeMenuRepository</Name>

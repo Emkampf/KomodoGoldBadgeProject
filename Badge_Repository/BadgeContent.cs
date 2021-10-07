@@ -8,28 +8,14 @@ namespace Badge_Repository
 {
     public class BadgeContent
     {
-        public int BadgeID { get; set; }
-        public ADoor DoorName { get; set; }
-
-
+        public string BadgeId { get; set; }
+        public List<string> DoorNames { get; set; } 
 
         public BadgeContent() { }
-
-        public BadgeContent(int badgeId, ADoor doorName)
+        public BadgeContent(string badgeId, List<string> doorNames)
         {
-            BadgeID = badgeId;
-            DoorName = doorName;
+            BadgeId = badgeId;
+            DoorNames = doorNames;
         }
-
-        
-    }
-
-    public enum ADoor
-    {
-       
-        
-
-        
-        
     }
 }

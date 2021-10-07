@@ -1,0 +1,2 @@
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\obj\Debug\BadgeConsole.csproj.AssemblyReference.cache
+C:\ElevenFiftyClassWork\KomodoMenu\BadgeConsole\obj\Debug\BadgeConsole.csproj.CoreCompileInputs.cache

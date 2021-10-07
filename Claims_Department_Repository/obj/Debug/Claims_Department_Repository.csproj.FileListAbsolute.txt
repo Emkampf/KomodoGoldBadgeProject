@@ -35,6 +35,7 @@ C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\bin\Debug\ru\Mic
 C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\bin\Debug\tr\Microsoft.Build.resources.dll
 C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\bin\Debug\zh-Hans\Microsoft.Build.resources.dll
 C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\bin\Debug\zh-Hant\Microsoft.Build.resources.dll
+C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\obj\Debug\Claims_Department_Repository.csproj.AssemblyReference.cache
 C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\obj\Debug\Claims_Department_Repository.csproj.CoreCompileInputs.cache
 C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\obj\Debug\Claims_Department_Repository.csproj.CopyComplete
 C:\ElevenFiftyClassWork\KomodoMenu\Claims_Department_Repository\obj\Debug\Claims_Department_Repository.dll

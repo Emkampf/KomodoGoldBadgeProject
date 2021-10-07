@@ -16,7 +16,6 @@ namespace ClaimsDepartment
             SeedData();
             MainMenu();
         }
-
         private void MainMenu()
         {
             bool keepRunning = true;
@@ -29,31 +28,21 @@ namespace ClaimsDepartment
                     "2. Take care of next claim\n" +
                     "3. Enter a new claim\n" +
                     "4. Exit");
-
-
                 string userInput = Console.ReadLine();
                 switch (userInput)
                 {
-
                     case "1":
                         SeeAllClaims();
-
                         break;
-
                     case "2":
-
                         NextClaim();
-
                         break;
-
                     case "3":
                         AddClaimContent();
                         break;
-
                     case "4":
                         keepRunning = false;
                         break;
-
                     default:
                         Console.WriteLine("Please enter a number to continue.");
                         Console.ReadKey();
@@ -77,7 +66,6 @@ namespace ClaimsDepartment
             string typeOfClaimAsString = Console.ReadLine();
             newClaimsContent.TypeOfClaim = (ClaimType)int.Parse(typeOfClaimAsString);
 
-
             //Description
             Console.WriteLine("Enter claim description:");
             newClaimsContent.Description = Console.ReadLine();
@@ -90,16 +78,13 @@ namespace ClaimsDepartment
             //DateOfAccident
             Console.WriteLine("Enter date of Accident as 00/00/00:");
             DateTime inputIncidentDate = DateTime.Parse(Console.ReadLine());
-    
+
             Console.WriteLine("Enter date of Claim as 00/00/00:");
             DateTime inputClaimDate = DateTime.Parse(Console.ReadLine());
-
 
             _repo.AddClaimContent(newClaimsContent);
             Console.ReadKey();
         }
-
-
         //READ
         private void SeeAllClaims()
         {
@@ -110,13 +95,9 @@ namespace ClaimsDepartment
             Console.WriteLine($"ClaimID\tType\t Amount\t\tDescription\t\t\t\t\tDateOfIncident\tDateOfClaim        IsValid");
             foreach (ClaimsContent claimsContent in queueClaimsContents)
             {
-
                 Console.WriteLine($"{claimsContent.ClaimId}\t {claimsContent.TypeOfClaim}\t  ${claimsContent.ClaimAmount} \t {claimsContent.Description}\t {claimsContent.DateOfIncident:d} \t{claimsContent.DateOfClaim:d} \t {claimsContent.IsValid}");
-
             }
-
             Console.ReadKey();
-
         }
 
 
@@ -143,7 +124,6 @@ namespace ClaimsDepartment
             Console.Clear();
             if (isValidAsString == "y")
             {
- 
                 Console.WriteLine("Item in Queue: {0}", claimsContent.Peek()); //Move? I want this to jump to Enter Claim Id for Update
             }
             else
@@ -151,21 +131,16 @@ namespace ClaimsDepartment
                 MainMenu();
             }
             Console.ReadKey();
-
-  
-
         }
-           private void SeedData()
-           {
+        private void SeedData()
+        {
+            ClaimsContent carClaim = new ClaimsContent(1, ClaimType.Car, "Turned into transformer, took out a bridge.", 1000.50m, new DateTime(2021, 09, 25), new DateTime(2021, 09, 28), true);
+            ClaimsContent homeClaim = new ClaimsContent(2, ClaimType.Home, "Sinkhole opened up and swallowed kitchen.", 1500.00m, new DateTime(2021, 01, 25), new DateTime(2021, 08, 18), true);
+            ClaimsContent theftClaim = new ClaimsContent(3, ClaimType.Theft, "Stole a car and drove it through a wig store.", 500.00m, new DateTime(2021, 09, 15), new DateTime(2021, 10, 02), false);
 
-                ClaimsContent carClaim = new ClaimsContent(1, ClaimType.Car, "Turned into transformer, took out a bridge.", 1000.50m, new DateTime(2021, 09, 25), new DateTime(2021, 09, 28), true);
-                ClaimsContent homeClaim = new ClaimsContent(2, ClaimType.Home, "Sinkhole opened up and swallowed kitchen.", 1500.00m, new DateTime(2021, 01, 25), new DateTime(2021, 08, 18), true);
-                ClaimsContent theftClaim = new ClaimsContent(3, ClaimType.Theft, "Stole a car and drove it through a wig store.", 500.00m, new DateTime(2021, 09, 15), new DateTime(2021, 10, 02), false);
-
-                _repo.AddClaimContent(carClaim);
-                _repo.AddClaimContent(homeClaim);
-                _repo.AddClaimContent(theftClaim);
-
-            }
+            _repo.AddClaimContent(carClaim);
+            _repo.AddClaimContent(homeClaim);
+            _repo.AddClaimContent(theftClaim);
+        }
     }
 }
